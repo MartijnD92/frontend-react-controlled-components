@@ -1,1 +1,48 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #f2edd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: #e48257;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+label,
+input,
+select,
+textarea {
+    display: block;
+    padding: .2em;
+    margin: .5em 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+button {
+    border: 0;
+    background: #3a6351;
+    padding: .5em 1em;
+    width: 50%;
+    border-radius: 500px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
